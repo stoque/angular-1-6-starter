@@ -1,0 +1,24 @@
+{
+  "name": "angular-1-6.starter",
+  "version": "1.0.0",
+  "description": "An AngularJS Starter repo for Angular 1.6 + ES6 + Webpack",
+  "main": "app/app.module.js",
+  "scripts": {
+    "start": "concurrently 'lite-server' 'webpack --watch'"
+  },
+  "author": "Lucas Stoque",
+  "license": "ISC",
+  "dependencies": {
+    "angular": "^1.6.6",
+    "angular-ui-router": "^1.0.3",
+    "webpack": "^3.5.5"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.1",
+    "babel-preset-es2015": "^6.24.1",
+    "concurrently": "^3.5.0",
+    "html-loader": "^0.5.1",
+    "lite-server": "^2.3.0"
+  }
+}
